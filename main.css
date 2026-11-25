@@ -1,0 +1,92 @@
+*{margin: 0;
+padding: 0;
+box-sizing: 0;}
+
+body
+{background: #F2D5BB;;
+ background-repeat: no-repeat;
+ background-image:url(../Media/pngwing.com.png);
+ background-size: cover;
+ background-blend-mode: screen;
+ display:inline;
+ text-align: center;
+}
+
+main{
+display: inline-block;
+font-size: larger;
+}
+
+header{
+    background-color: cadetblue;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+nav
+{   text-align: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #F2D5BB;  
+    text-align: center;  
+    padding: 5%;
+    font-size: larger;
+}
+
+h1
+{padding: 15px;
+color:#423e3e;
+text-align: center;
+}
+
+#card{
+ display: grid;
+}
+
+
+img
+{
+ background-color: #f2bbbb;
+ border: #423e3e 5px solid;
+ border-radius:600px;
+ margin: auto;
+ display: block;
+ 
+}
+
+button
+{
+ border: #f2d5bb ;
+ border-radius: 10px;
+ padding: 20px;
+ font-size: large;
+}
+
+ul li a{
+    font-family: 'Inter', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace;
+    text-decoration:solid;
+    color: #F2D5BB;
+}
+li{
+    display: flex-block;
+    padding: 5px;
+   
+}
+
+footer
+{
+      background-color: cadetblue;
+      padding: 1%;
+      text-align: center;
+      position: fixed;
+      left: 0%;
+      bottom: 0%;
+      width:100% ;
+}
+
+ a:hover{
+    color: aqua;
+}
